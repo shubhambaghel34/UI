@@ -16,7 +16,6 @@ function reducer(state, action) {
       throw new Error();
   }
 }
-
 const Calculator = () => {
   const [state, dispatch] = useReducer(reducer, initialState);
   return (
